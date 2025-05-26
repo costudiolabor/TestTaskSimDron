@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a104abc9e68727e4c999f76975e42b86, type: 3}
+  m_Name: SettingMap
+  m_EditorClassIdentifier: 
+  maxResources: 20
+  maxDrones: 10
+  spawnRadiusResources: 20
+  spawnRadiusDrones: 1
+  spawnInterval: 0.5
+  map: {fileID: 8458004835688095144, guid: 0e671d8551fdc824d96d0c3026d88369, type: 3}
+  resourcePrefab: {fileID: 1286872864210038718, guid: 4fb715cb5a679eb4cb6432ba8d33e1a0, type: 3}
+  dronePrefab: {fileID: 5550368393643793666, guid: 6f8ee3bba20f3d2449f31df22da939bf, type: 3}
